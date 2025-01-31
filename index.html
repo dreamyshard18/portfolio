@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya S Nair - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .profile-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6366f1;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-card {
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .contact-item a {
+            color: #6366f1;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .update-badge {
+            display: inline-block;
+            background: #22c55e;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="profile-title">Diya S Nair</h1>
+            <p class="subtitle">BTech AI Student at MITS | Aspiring Developer</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I am an undergraduate BTech AI student at MITS with a passion for technology and leadership. As a public speaker and emerging technologist, I am constantly seeking opportunities to grow and learn in the field of artificial intelligence and software development.</p>
+            <div class="update-badge">Currently at TinkHerHack 3.0! 🚀</div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C Programming</li>
+                        <li>Flutter (Learning)</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Public Speaking</li>
+                        <li>Leadership</li>
+                        <li>Networking</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interests & Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Music</li>
+                <li>Professional Networking</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    📧 <a href="mailto:diyalesu@gmail.com">diyalesu@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    📱 9656 XXXXX
+                </div>
+                <div class="contact-item">
+                    💼 <a href="https://www.linkedin.com/in/diya-s-nair/" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    💻 <a href="https://github.com/dreamyshard18" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
